@@ -25,13 +25,14 @@ nav h1 {
 @media screen and (max-width:450px) {
     header {
         margin-top: 10px;
-        height: 400px;
+        height: 450px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         background-color: black;
+        padding-left: 10px;
     }
     header h1 {
         color: white;
@@ -42,6 +43,11 @@ nav h1 {
         border: none;
         padding: 15px 40px;
         margin-top: 50px;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
     }
 }
 
