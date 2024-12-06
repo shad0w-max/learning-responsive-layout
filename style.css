@@ -111,6 +111,39 @@ nav h1 {
         padding-right: 5px;
     }
 
+    .about-us .about-us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us .about-us-text h1 {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+
+    .about-us .about-us-text p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-us .about-us-img {
+        height: 300px;
+        width: 99%;
+        background-color: black;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-img h2 {
+        color: white;
+        font-size: 2rem;
+    }
+
     footer {
         width: 100%;
         height: 170px;
