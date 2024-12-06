@@ -5,8 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    /* background-color: black; */
+    font-family: "Poppins", sans-serif; 
 }
 
 nav {
@@ -28,7 +27,7 @@ nav h1 {
     header {
         margin-top: 10px;
         height: 450px;
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -52,7 +51,7 @@ nav h1 {
 
     .content {
         margin-top: 20px;
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,7 +94,7 @@ nav h1 {
 
     .about-us {
         margin-top: 20px;
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -172,8 +171,5 @@ nav h1 {
 }
 
 
-@media screen and (max-width:900px) {
-    nav h1 {
-        color: green;
-    }
+@media screen and (max-width:900px) { 
 }
