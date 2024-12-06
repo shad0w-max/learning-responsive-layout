@@ -23,6 +23,8 @@ nav h1 {
 }
 
 @media screen and (max-width:450px) {
+    /* Styling the header */
+
     header {
         margin-top: 10px;
         height: 450px;
@@ -46,7 +48,9 @@ nav h1 {
         border-radius: 10px;
     }
 
-    section {
+    /* The Content Section */
+
+    .content {
         margin-top: 20px;
         width: 100%;
         display: flex;
@@ -59,12 +63,17 @@ nav h1 {
         /* background-color: black; */
     }
 
-    section h2 {
+    .content .content-text {
+        padding-right: 220px;
+    }
+
+    .content .content-text h2 {
+        /* padding-right: 200px; */
         color: black;
         font-size: 2.5rem;
     }
 
-    section .boxes {
+    .content .boxes {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -86,6 +95,20 @@ nav h1 {
     .boxes .box h3 {
         color: white;
         font-size: 3rem;
+    }
+
+    /* The about us section */
+
+    .about-us {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     footer {
